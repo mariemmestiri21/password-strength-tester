@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #444;
+  text-align: center;
+  width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+#strengthBar {
+  height: 10px;
+  width: 100%;
+  background: #333;
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#barFill {
+  height: 100%;
+  width: 0%;
+  background: red;
+  transition: width 0.3s, background 0.3s;
+}
+
+.button-group button {
+  margin: 5px 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#suggestion {
+  margin: 5px 0;
+  font-style: italic;
+  color: #bbb;
+}
